@@ -21,4 +21,8 @@ public class IntComparable implements ComparableContent<IntComparable>{
     public boolean isLess(IntComparable pContent) {
         return wert < pContent.wert;
     }
+
+    public static IntComparable search(BinarySearchTree<IntComparable> comparable) {
+        return null;
+    }
 }
